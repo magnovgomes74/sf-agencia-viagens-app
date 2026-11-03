@@ -1,0 +1,17 @@
+﻿Name,Destino__c,Duracao__c,Preco__c,Necessario_passaporte__c,Ativo__c
+Berlim Histórica e Moderna,a01aj000044XVAMAA4,6,1100.00,VERDADEIRO,VERDADEIRO
+Tóquio Futurista: Tradição e Tecnologia,a01aj000044XVAOAA4,10,2200.00,VERDADEIRO,VERDADEIRO
+Aventura em Nova York: Luzes da Cidade,a01aj000044XVASAA4,7,1800.00,VERDADEIRO,VERDADEIRO
+Explorando a Cidade do México: Cultura Asteca e Gastronomia,a01aj000044XVAUAA4,8,1400.00,VERDADEIRO,VERDADEIRO
+Belezas de Fortaleza: Sol e Mar,a01aj000044XVAWAA4,7,850.00,FALSO,VERDADEIRO
+Egito Milenar: Cruzeiro no Nilo e Pirâmides (Cairo),a01aj000044XVAXAA4,9,1950.00,VERDADEIRO,VERDADEIRO
+Cidade do Cabo Espetacular: Montanhas e Vinícolas,a01aj000044XVAYAA4,7,1600.00,VERDADEIRO,VERDADEIRO
+Sydney Vibrante: Ópera House e Praias,a01aj000044XVAaAAO,8,2100.00,VERDADEIRO,VERDADEIRO
+Maravilhas de Bangkok: Templos e Mercados Flutuantes,a01aj000044XVARAA4,7,1300.00,VERDADEIRO,VERDADEIRO
+Cores da Índia: Triângulo Dourado (Nova Delhi),a01aj000044XVAQAA4,9,1750.00,VERDADEIRO,VERDADEIRO
+Roma Imperial: Coliseu e Vaticano,a01aj000044XVALAA4,5,1350.00,VERDADEIRO,VERDADEIRO
+Escapadinha Romana: Fim de Semana Histórico,a01aj000044XVALAA4,3,750.00,VERDADEIRO,VERDADEIRO
+Sabores da Itália: Tour Gastronômico em Roma,a01aj000044XVALAA4,4,980.00,VERDADEIRO,VERDADEIRO
+Buenos Aires Apaixonante: Tango e Cultura,a01aj000044XVAVAA4,6,950.00,FALSO,VERDADEIRO
+Buenos Aires Essencial: City Tour Completo,a01aj000044XVAVAA4,4,600.00,FALSO,FALSO
+Noites Portenhas: Show de Tango e Jantar Especial,a01aj000044XVAVAA4,3,450.00,FALSO,FALSO
