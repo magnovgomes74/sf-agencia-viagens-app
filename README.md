@@ -1,58 +1,46 @@
-# Salesforce DX Project
+<div align="center">
+  <img src="./logooAgencia.png" alt="Logo Agência Magno Viagens" width="180" />
+  <h1>✈️ Agência Magno Viagens — Salesforce App</h1>
+  <p>Aplicação desenvolvida na plataforma Salesforce aplicando arquitetura Salesforce DX, automações e desenvolvimento Back-end/Front-end.</p>
+</div>
 
-Salesforce DX is a development approach that brings source-driven development, team collaboration, and continuous integration to the Salesforce Platform. Instead of working directly in an org through a web browser, you work with metadata as source files in a local DX project, track changes in version control, and deploy through automated processes.
+---
 
-This project template gets you started with the tools and structure you need to build Salesforce applications using source control, scratch orgs, and the Salesforce CLI.
+## 📋 Sobre o Projeto
 
-## Prerequisites
+O **Agência Magno Viagens** é um projeto prático desenvolvido para gerenciar operações de turismo, pacotes de viagens, clientes e oportunidades comerciais dentro do ecossistema **Salesforce CRM**.
 
-Before you start, make sure you have:
+O repositório segue a estrutura padrão **Salesforce DX (SFDX)**, permitindo o controle de versão dos metadados, deploy automatizado e organização modular do código-fonte[cite: 14, 15].
 
-- **Salesforce CLI** - Download from [developer.salesforce.com/tools/salesforcecli](https://developer.salesforce.com/tools/salesforcecli). See [Install Salesforce CLI](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm) for details.
-- **VS Code with Salesforce Extension Pack** - See [Installation Instructions](https://developer.salesforce.com/docs/platform/sfvscode-extensions/guide/install.html) for details. Includes the Agentforce Vibes extension.
-- **A development org** - Sign up for a free Developer Edition org [here](https://developer.salesforce.com/signup).
-- **Dev Hub enabled** (optional, required to create scratch orgs) - You can enable Dev Hub in your development org under Setup > Dev Hub.  See [Provide Developers Access to Salesforce DX Tools](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_setup_dx_tools.htm).
+---
 
-## Project Structure
+## 🛠️ Tecnologias e Recursos Utilizados
 
-Your DX project follows this structure:
+* **Plataforma:** Salesforce CRM (Lightning Experience)[cite: 15]
+* **Linguagem Back-end:** Apex (POO, Controllers MVC, Padrão DTO/Wrapper, Triggers e Batch Apex)
+* **Consultas e Dados:** SOQL e DML
+* **Automação Declarativa:** Salesforce Flows e Invocable Methods
+* **Ferramentas de Desenvolvimento:** Salesforce CLI (`sf`), Visual Studio Code e Git/GitHub[cite: 14, 15]
 
-- **`force-app/main/default/`** - Your metadata source files live in this default package directory. You can configure additional package directories in the `sfdx-project.json` file.
-- **`config/`** - Scratch org definitions and project settings
-- **`scripts/`** - Automation scripts for common tasks
-- **`sfdx-project.json`** - Project manifest that defines package directories, namespace, API version, and other project-level settings
+---
 
-See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm).
+## 📂 Estrutura do Projeto
 
-## Get Started
+```text
+agencia-magnovgomes-viagens/
+├── config/                  # Configurações de Scratch Orgs
+├── docs/                    # Documentação e certificados do projeto
+├── force-app/main/default/  # Metadados principais (Classes Apex, Objetos, Triggers, Flows, LWC)
+├── manifest/                # Arquivos package.xml para deploy e retrieve
+├── scripts/                 # Scripts Apex anônimos e SOQL para testes
+└── sfdx-project.json        # Configuração raiz do projeto Salesforce DX
+```[cite: 14, 15]
 
-Ready to start developing? The [Get Started with Salesforce DX](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_get_started_dx.htm) guide walks you through your first project, from creating a scratch org to creating a simple Apex class or LWC to deploying your code to a sandbox.
+---
 
-## Common Salesforce CLI Commands
+## 🚀 Como Executar Localmente
 
-Here are common CLI commands that you'll use the most:
-
-- `sf org login web`: Authorize an org
-- `sf org open`: Open your org in a browser
-- `sf org create scratch`: Create a scratch org
-- `sf project deploy start`: Deploy metadata to your org
-- `sf project retrieve start`: Retrieve metadata from your org
-- `sf template generate <artifact>`: Scaffold new components, such as Apex classes and triggers, LWC components, Lightning apps, and more
-- `sf apex <command>`: Run Apex tests, run anonymous Apex blocks, and view logs
-- `sf data <command>`: Work with test data
-- `sf alias <command>`: Manage org aliases
-- `sf config <command>`: Configure CLI settings
-
-## Use Agentforce Vibes to Build Lightning Apps
-
-Transform your ideas into custom Lightning apps that extend CRM workflows directly in Lightning Experience. Through natural conversations with Agentforce Vibes, implement custom objects and fields, complex business logic, and dynamic UI components. See [Build a Lightning App Using Agentforce Vibes](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/lexapp-overview.html).
-
-## Additional Resources
-
-- [Agentforce Vibes Developer Guide](https://developer.salesforce.com/docs/platform/einstein-for-devs/guide/einstein-overview.html)
-- [Salesforce CLI Installation Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/)
-- [Salesforce CLI Plugin Development Guide](https://developer.salesforce.com/docs/platform/salesforce-cli-plugin/guide/conceptual-overview.html)
-- [Salesforce VS Code Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/magnovgomes74/sf-agencia-viagens-app.git](https://github.com/magnovgomes74/sf-agencia-viagens-app.git)
+   cd sf-agencia-viagens-app
